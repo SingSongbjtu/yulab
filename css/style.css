@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 10px 5%;
+  background: rgb(255, 255, 255, 0.6);
+}
+.logo h1 {
+  color: #c32655;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+.nav a {
+  text-decoration: none;
+  color: #141111;
+  font-size: 18px;
+  /* margin-left: 1px; */
+  margin-right: 15px;
+}
+.banner {
+  width: 100%;
+  height: 60vh;
+  /* overflow: hidden; */
+}
+.banner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* z-index: -1; */
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.title h3 {
+  font-size: 40px;
+  color: rgb(2, 18, 13);
+  letter-spacing: 5px;
+  margin: 0 20px 0 20px;
+  font-weight: normal;
+}
+.title .line {
+  width: 80px;
+  height: 4px;
+  background: rgb(136, 6, 95);
+}
+
+.research {
+  display: flex;
+  justify-content: space-between; /*两端对齐*/
+  width: 80%;
+  margin: 30px auto;
+}
+.research-img {
+  width: 50%;
+  height: 400px;
+}
+.research-img img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  /*object-fit 
+  属性用于规定应如何调整 <img>
+   或 <video> 的大小来适应其容器.此处为保留长宽比填充空间*/
+}
+.research-text {
+  width: 70%;
+}
+.research-text a {
+  text-decoration: none;
+  color: #d64c9a;
+  position: relative;
+}
+.research-text p {
+  line-height: 1.8;
+  text-indent: 1em; /*文字缩进*/
+  margin: 10px, 10px;
+}
+
+.publication ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+.publication ul li {
+  list-style: none;
+  width: 24%;
+}
+.publication ul li img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+.publication ul li p {
+  padding: 10px;
+  font-weight: bold;
+  color: black;
+  background: rgb(0, 4, 7);
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.title1 {
+  font-size: 24px;
+  font-weight: bold;
+  /* margin: 0px 0px; */
+  /* margin-bottom: 10px; */
+  /* margin-left: 0px; */
+  padding: 10px 0px;
+}
+
+.abstract1 {
+  padding: 10px;
+  text-align: justify;
+  max-width: 1000px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+/* .abstract1 p {
+  line-height: 1;
+  
+  margin: 0px, 0px; 
+} */
+/* .abstract1 a{
+  text-decoration: none;
+  color: #d64c9a;
+  position: absolute;
+  margin: 0 auto;
+} */
+
+.team {
+  width: 1200px;
+  margin: 30px auto;
+}
+.team span {
+  background: rgb(171, 209, 127);
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.team span:first-child {
+  background: #5dba77;
+  color: aqua;
+}
+#team span:nth-child(3) {
+  background: skyblue;
+}
+.team span:last-child {
+  background: #9a2c6e;
+  color: aqua;
+}
+.contact {
+  width: 1200px;
+  margin: 30px auto;
+}
+.contact p {  
+  font-weight:bold;
+   margin: 0px, 0px; 
+   color: black;
+   /* letter-spacing: 5px; */
+   /* font-size: 20px; */
+}
+
+.footer {
+  text-align: center;
+  color: rgb(236, 241, 234);
+  background: #5520a5;
+
+  padding: 15px 0;
+}
